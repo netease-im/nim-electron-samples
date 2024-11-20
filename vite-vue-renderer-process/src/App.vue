@@ -10,13 +10,17 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <a href="https://yunxin.163.com/" target="_blank">
+      <img src="/nim.png" class="logo nim" alt="NIM logo" />
+    </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld />
 </template>
 
 <style scoped>
 .logo {
-  height: 6em;
+  height: 80px;
+  width: 80px;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
